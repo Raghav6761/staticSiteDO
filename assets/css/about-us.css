@@ -1,0 +1,182 @@
+.header-image-row{
+    margin-top: 2%;
+    /* align-items: flex-start; */
+    margin-bottom: 50px;
+}
+
+.header-image-text h1{
+    /* margin-top: -15%; */
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.header-image img{
+    margin: -9% 0 -11% -20%;
+}
+
+/* why better section */
+
+.better-section{
+    align-items: center;
+}
+
+.better-section img{
+    width: 100%;
+}
+
+.better-section .card{
+    border: none;
+}
+
+.better-section .card .card-title{
+    font-weight: bold;
+}
+
+.better-section-1 img{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.better-section-2 img{
+    width: 100%;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+}
+.better-section-3 img{
+    width: 100%;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+}
+
+/* Overview Section */
+.overview-section{
+    align-items: center;
+}
+
+.overview-section-text{
+    color: rgb(0, 0, 75);
+}
+
+.overview-section-text p{
+    padding:0 10%;
+    font-size: 1.2rem;
+}
+
+.overview-section h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.overview-section img{
+    width: 100%;
+    border-radius: 30%;
+}
+
+/* Vision Section */
+.vision-section{
+    align-items: center;
+}
+
+.vision-section-text{
+    color: rgb(0, 0, 75);
+}
+
+.vision-section-text p{
+    padding:0 10% 0 0;
+    font-size: 1.2rem;
+}
+
+.vision-section h2{
+    font-size: 3rem;
+    padding: 0 10% 0 0;
+    font-weight: bold;
+}
+
+.vision-section img{
+    width: 100%;
+    border-radius: 30%;
+}
+
+/* Meet Our Team */
+.meet-team-section h2{
+    text-align: center;
+}
+
+.meet-team-section h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.meet-team-section ul{
+    /* list-style: none outside none;
+    padding-left: 0;
+    margin: 0; */
+}
+
+.meet-team-section .content-slider li{
+    text-align: center;
+}
+
+.meet-team-section .card{
+    border: none;
+}
+
+.meet-team-section .card img{
+    width: 30%;
+    margin: 0 35%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+.meet-team-section .card h5{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:600px) {
+
+    /* What makes us better section */
+    .better-section-text{
+        display: none;
+    }
+
+    .better-section-col{
+        display: none;
+    }
+
+    .better-section .card-title{
+        font-size: 1.5rem;
+    }
+
+    /* Overview Section */
+    .overview-section{
+        flex-direction: column-reverse;
+    }
+
+    .overview-section-text p{
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .overview-section-text h2{
+        font-size: 2rem;
+        padding: 10px 0 0 0;
+    }
+
+    /* Vision Section */
+    .vision-section-text p{
+        padding:0;
+        font-size: 1rem;
+    }
+    
+    .vision-section h2{
+        font-size: 2rem;
+        padding: 10px 0 0 0;
+    }
+
+    /* Meet team section */
+    .meet-team-section h2{
+        font-size: 2rem;
+    }
+}
